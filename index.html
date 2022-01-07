@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scable=0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <base href="/index.html">
+
+    <title>Nozama</title>
+</head>
+
+<body>
+<div class="intro-head">
+    <div class="container">
+        <div class="intro flex">
+            <div class="phoneNumber">Phone orders: 800-555-1234</div>
+            <div class="language">
+                <a href="#">
+                    <img src="/images/gb-flag.svg" alt="English" style="height: 14px; width: 18px;">
+                    English</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header flex">
+    <div class="container">
+        <div class="headTop flex">
+            <div class="mobileMenu flex">
+                <div id="sidebarMenu" class="mobileNav flex">
+                    <input type="checkbox" id="mobile">
+                    <label for="mobile" class="check-btn">
+                        <i class="fas fa-bars"> </i>
+                    </label>
+                    <ul class="menu">
+                        <li class="check-btn">
+                            <input type="checkbox" id="mobile1">
+                            <label for="mobile" class="check-btn ">Close Menu<span class="fas fa-times"></span>
+                            </label>
+                        </li>
+                        <li><span class="fas fa-star"></span><a href="#">Today's Deals</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><label for="btn">Shop<span class="fas fa-angle-down ">
+                                    </span></label>
+                            <input type="checkbox" id="btn">
+                            <ul class="sub-menu">
+                                <li><a href="#">Shop - Right Sidebar</a></li>
+                                <li><a href="#">Shop - Left Sidebar</a></li>
+                                <li><a href="#">Shop - Full Width</a></li>
+                            </ul>
+                        </li>
+                        <li><label for="btn-2">Categories<span class="fas fa-angle-down">
+                                    </span></label>
+                            <input type="checkbox" id="btn-2">
+                            <ul class="sub-menu">
+                                <li><a href="#">3d Printers</a></li>
+                                <li><a href="/categories.html">Computers & Peripherals</a></li>
+                                <li><a href="#">Gaming</a></li>
+                                <li><a href="#">Mobile & Tablets</a></li>
+                                <li><a href="#">Smart Watches</a></li>
+                                <li><a href="#">Sound</a></li>
+                                <li><a href="#">Tv & Accessories</a></li>
+                                <li><a href="#">Video & Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><label for="btn-3">Products<span class="fas fa-angle-down">
+                                    </span></label>
+                            <input type="checkbox" id="btn-3">
+                            <ul class="sub-menu">
+                                <li><a href="#">Product - Simple</a></li>
+                                <li><a href="#">Product - Variable</a></li>
+                                <li><a href="#">Product - Grouped</a></li>
+                                <li><a href="#">Product - External / Affiliate</a></li>
+                                <li><a href="#">Product - On sale</a></li>
+                                <li><a href="#">Product - Out of stock</a></li>
+                                <li><a href="#">Product - Backorder</a></li>
+                                <li><a href="#">Product - Limited stock</a></li>
+                            </ul>
+                        </li>
+                        <li><label for="btn-4">Elements<span class="fas  fa-angle-down">
+                                    </span></label>
+                            <input type="checkbox" id="btn-4">
+                            <ul>
+                                <li><label for="btn-5">Shop Elements <span class="fas  fa-angle-down">
+                                            </span></label>
+                                    <input type="checkbox" id="btn-5">
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Product Categories</a></li>
+                                        <li><a href="#">Product - By ID</a></li>
+                                        <li><a href="#">Product - Featured</a></li>
+                                        <li><a href="#">Product - Best Sellers</a></li>
+                                        <li><a href="#">Product - On Sale</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><label for="btn-6">Pages <span class="fas  fa-angle-down">
+                                            </span></label>
+                                    <input type="checkbox" id="btn-6">
+                                    <ul class="sub-menu">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Order Tracking</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li class=" menu customer"><a href="#">Customer Support</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <h1 class="logoTitle">
+                        <a href="https://www.cssigniter.com/demos/nozama/">Nozama</a>
+                    </h1>
+                    <p class="logoSubTitle">WooCommerce theme</p>
+                </div>
+            </div>
+            <div class="search">
+                <form class="searchForm flex">
+                    <select class="searchSelect">
+                        <option>Search all categories</option>
+                        <option>Gaming</option>
+                        <option>Sound</option>
+                        <option>Video & Photography</option>
+                        <option>TV & Accessories</option>
+                        <option>3D Printers</option>
+                        <option>Smart Watches</option>
+                        <option>Computers & Peripherals</option>
+                        <option>Mobile & Tables</option>
+                    </select>
+                    <div class="searchInput flex">
+                        <input type="text" placeholder="What are you looking for?">
+                        <button class="btn-search fas fa-search flex"></button>
+
+                    </div>
+                </form>
+            </div>
+            <div class="userShop flex">
+                <div class="user">
+                    <a href="#" class="fas fa-user"></a>
+                </div>
+                <div class="shopping flex">
+                    <a href="#" class="fas fa-shopping-basket"></a>
+                    <a class="shoppingCount">0</a>
+                    <a class="shoppingPrice"> £0.00</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="head-nav">
+    <div class="container">
+        <nav class="nav flex">
+            <ul class="today fas fa-star"><a href="#">Today's Deals</a></ul>
+            <ul class="navMain">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Shop<i class="fas  fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Shop - Right Sidebar</a></li>
+                        <li><a href="#">Shop - Left Sidebar</a></li>
+                        <li><a href="#">Shop - Full Width</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Categories<i class="fas  fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">3d Printers</a></li>
+                        <li><a href="/categories.html">Computers & Peripherals</a></li>
+                        <li><a href="#">Gaming</a></li>
+                        <li><a href="#">Mobile & Tablets</a></li>
+                        <li><a href="#">Smart Watches</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Tv & Accessories</a></li>
+                        <li><a href="#">Video & Photography</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Products<i class="fas  fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Product - Simple</a></li>
+                        <li><a href="#">Product - Variable</a></li>
+                        <li><a href="#">Product - Grouped</a></li>
+                        <li><a href="#">Product - External / Affiliate</a></li>
+                        <li><a href="#">Product - On sale</a></li>
+                        <li><a href="#">Product - Out of stock</a></li>
+                        <li><a href="#">Product - Backorder</a></li>
+                        <li><a href="#">Product - Limited stock</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Elements<i class="fas  fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Shop Elements</a></li>
+                        <li><a href="#">Product Categories</a></li>
+                        <li><a href="#">Product - By ID</a></li>
+                        <li><a href="#">Product - Featured</a></li>
+                        <li><a href="#">Product - Best Sellers</a></li>
+                        <li><a href="#">Product - On Sale</a></li>
+                    </ul>
+                    <ul class="ulLeft">
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul class="customer"><a href="#">Customer Support</a></ul>
+        </nav>
+    </div>
+</div>
+<section class="slider">
+    <div class="slideshow">
+        <div class="img-container1">
+            <!-- <img  src="./images/hero_iphone.jpg" alt="hero_iphone"> -->
+            <div class="container">
+                <div class="content-slider">
+                    <h3>Samsung Galaxy S12+</h3>
+                    <p>The Camera. Reimagined</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="img-container2">
+            <!-- <img  src="./images/hero_ps4.jpg" alt="hero_ps4"> -->
+            <div class="container">
+                <div class="content-slider">
+                    <h3>The Best Place To Play</h3>
+                    <p>The Playstation 5 system now starting at $399</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="img-container3">
+            <!-- <img  src="./images/hero_samsung.jpg" alt="hero_samsung"> -->
+            <div class="container">
+                <div class="content-slider">
+                    <h3>Welcome to big screens</h3>
+                    <p>Iphone Xs is now available. From $699</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button class="btn-arrow fas fa-angle-right"></button>
+        <button class="btn-arrow fas fa-angle-left"></button>
+    </div>
+</section>
+<main>
+    <section class="mobile-tablets flex">
+        <div class="container">
+            <div class="category-title">
+                <h2>Recommended Categories</h2>
+            </div>
+            <div class="mobile-tablets-content flex">
+                <div class="mobile-tablets-items1">
+
+                    <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+                        <div class="mobile-tablets-items-content1">
+                            <h2>Mobiles & Tablets</h2>
+                            <p>Great deals and offers on all mobile phones</p>
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-tablets-container">
+                    <div class="mobile-tablets-items2">
+                        <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+                            <div class="mobile-tablets-items-content">
+                                <h2>Gaming</h2>
+                                <p>Fantastic deals on video games & consoles</p>
+                                <button class="btn">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-tablets-items3">
+                        <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+
+                            <div class="mobile-tablets-items-content">
+                                <h2>Sound</h2>
+                                <p>PC Speakers, headphones & other accessories </p>
+                                <button class="btn">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-tablets-items-big1">
+                <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+
+                    <div class="mobile-tablets-items-content">
+                        <h2>3D Printers</h2>
+                        <p>For personal, professional & educational use.</p>
+                        <button class="btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recommended-product flex">
+        <div class="container">
+            <div class="category-title">
+                <h2>Recommended Product</h2>
+                <p>In mobile & Tablets</p>
+            </div>
+            <div class="products-block flex">
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star "></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/iphonexs-1.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star "></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star "></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/iphonexs-1.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="far fa-star"></div>
+                        <div class="far fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/huawei_honor_9_lite.jpg" alt="">
+                        <p>Huawei Honor 9 lite</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star "></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="big-products flex">
+        <div class="container">
+            <div class="tv-photography flex">
+                <div class="tv">
+                    <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+                        <div class="mobile-tablets-items-content1">
+                            <h2>TV & Accessories</h2>
+                            <p>Great deals and offers on all TVs</p>
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="photography">
+                    <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+                        <div class="mobile-tablets-items-content1">
+                            <h2>Video & Photography</h2>
+                            <p>Top-rated products from top-rated brands</p>
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="top-products">
+        <div class="container">
+            <div class="category-title">
+                <h2>Top Products</h2>
+                <p>This month</p>
+            </div>
+            <div class="products-block flex">
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/bundle.jpg" alt="">
+                        <p>Photography Starter kit</p>
+                    </a>
+                    <div class="price-product">$399.00-599.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/nikon1.jpg" alt="">
+                        <p>Nikon D5 Body Only</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/d51.jpg" alt="">
+                        <p>Nikon D5</p>
+                    </a>
+                    <div class="price-product"><span class="price-sale">$699.00</span>999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="products-item">
+                    <a href="#">
+                        <img src="/images/action1.jpg" alt="">
+                        <p>4k Action Cam</p>
+                    </a>
+                    <div class="price-product">$699.00-999.00</div>
+                    <div class="star">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star "></div>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="mobile-tablets-items-big2">
+                <div style=" height: 100%;width: 100%; background-color: rgba(58, 78, 100, 0.5);">
+
+                    <div class="mobile-tablets-items-content">
+                        <h2>Smart Watches</h2>
+                        <p>Connected. Not distracted.</p>
+                        <button class="btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-updates flex">
+        <div class="container">
+            <div class="category-title">
+                <h2>News & Updates</h2>
+                <p>From around the globe</p>
+            </div>
+            <div class="products-block flex">
+                <div class="products-item">
+                    <div class="news-content">
+                        <a href="#">
+                            <img src="/images/windows-1-615x410.jpg" alt="">
+                            <p>Windows 10 October 2018 Update: The Best New Features</p>
+                        </a>
+                        <time>February 2, 2021</time>
+                    </div>
+                    <a class="btn">Read More</a>
+                </div>
+                <div class="products-item">
+                    <div class="news-content">
+                        <a href="#">
+                            <img src="/images/j_gkqVsF-615x410.jpeg" alt="">
+                            <p>10 Games you’ll want to buy this fall</p>
+                        </a>
+                        <time>February 2, 2021</time>
+                    </div>
+                    <a class="btn">Read More</a>
+                </div>
+                <div class="products-item">
+                    <div class="news-content">
+                        <a href="#">
+                            <img src="/images/google-1-615x410.jpg" alt="">
+                            <p>Google’s Sister Company Develops Anti-Censorship Android</p>
+                        </a>
+                        <time>February 2, 2021</time>
+                    </div>
+                    <a class="btn">Read More</a>
+                </div>
+                <div class="products-item">
+                    <div class="news-content">
+                        <a href="#">
+                            <img src="/images/surface-2-615x410.jpg" alt="">
+                            <p>First Look at Microsoft’s Surface Laptop 2, Surface Pro 6</p>
+                        </a>
+                        <time>February 2, 2021</time>
+                    </div>
+                    <a class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter flex">
+        <div class="container">
+            <div class="email-letter flex">
+                <div class="letter flex">
+                    <div class="lette" >
+                    <svg viewBox="0 0 24 24"  preserveAspectRatio="xMidYMid meet"><path fill="#F08804" d="M22 3H2C.897 3 0 3.897 0 5v14c0 1.103.897 2 2 2h20c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zm1 16c0 .551-.449 1-1 1H2c-.551 0-1-.449-1-1V5c0-.551.449-1 1-1h20c.551 0 1 .449 1 1v14zM21.342 6.365L15.329 12l6.013 5.635a.5.5 0 11-.684.73l-6.061-5.68-.528.494c-.562.529-1.297.821-2.07.821s-1.508-.292-2.071-.821l-.527-.494-6.061 5.68a.499.499 0 01-.707-.023.5.5 0 01.023-.707L8.669 12 2.656 6.365a.5.5 0 11.684-.73l7.272 6.814c.755.71 2.019.709 2.771 0l7.273-6.815a.5.5 0 11.684.73z"></path></svg>
+
+                    </div>
+                    <div class="logo">
+                        <h1 class="logoTitle">
+                            Our Newsletter
+                        </h1>
+                        <p class="letter-s-title">Receive a 30% discount on your first offer</p>
+                    </div>
+                </div>
+                <div class="email flex">
+                    <input type="text" placeholder="Your email here">
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-items flex">
+            <div class="footer-info">
+                <h3>800-555-1234 / 800-555-1235</h3>
+                <p>299 Ecommerce Avenue <br>San Francisco, California, 92000</p>
+                <div class="logo">
+                    <h1 class="logoTitle">Nozama</h1>
+                    <p class="letter-s-title">Let’s buy all the things</p>
+                </div>
+            </div>
+            <div class="footer-quick-menu">
+                <ul> <ul class="quick-menu">Quick Menu</ul>
+                    <li>Product - Categories</li>
+                    <li>Product - Best Sellers</li>
+                    <li>Product - By ID</li>
+                    <li>Product - Featured</li>
+                    <li>Product - On Sale</li>
+                </ul>
+            </div>
+            <div class="footer-on-sale flex">
+                <div class="footer-on-sale-title">On-sale Products</div>
+                <div class="sampler flex">
+                    <div><a href="#">
+                        <img src="/images/sampler1-160x160.jpg" alt="">
+                    </a>
+                    </div>
+                    <div >
+                        <div>
+                            <a href="#">DJ Sampler Box</a>
+                        </div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div class="price-product"><span>$699.00</span> 999.00</div>
+                    </div>
+                </div>
+                <div class="sampler flex">
+                    <div><a href="#">
+                        <img src="/images/surface-160x160.jpg" alt="">
+                    </a>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#">Surface Pro 5</a>
+                        </div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div class="price-product"><span>$699.00</span> 999.00</div>
+                    </div>
+                </div>
+                <div class="sampler flex">
+                    <div><a href="#">
+                        <img src="/images/Bose-SoundLink-Bluetooth-Speaker.G03.2k-160x160.jpg" alt="">
+                    </a>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#">Bose SoundLink Speaker</a>
+                        </div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div class="price-product"><span class="price-sale">$699.00</span> 999.00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-opening ">
+                <h4>Physical Store Opening Hours</h4>
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit mollitia laboriosam nesciunt neque.
+                    Deserunt excepturi obcaecati ipsam saepe? Sit iste at expedita illo sequi quo corporis autem quia
+                    ratione rem.
+                </div>
+                <div class="times">
+                    <div>Mon-Tue: 09:00-21:00</div>
+                    <div>Wed-Thu: 09:00-20:00</div>
+                    <div>Fri-Set: 09:00-1800</div>
+                    <div>Sun: Closed</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer-info-2">
+        <div class="container">
+            <div class="intro flex">
+                <div class="phoneNumber"><a style="color: #fff; font-weight: 400;" href="https://www.cssigniter.com/themes/nozama/" target="_blank" rel="nofollow">Nozama - Ignition</a> - An E-Commerce theme for WordPress</div>
+                <div class="language">
+                    <a href="#">
+                        A theme by CSSIgniter - Powered by WordPress</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
